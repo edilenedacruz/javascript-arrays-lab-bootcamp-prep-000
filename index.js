@@ -33,6 +33,6 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  var lessKittens = kittens.pop
+  var lessKittens = kittens.slice(-1)
   return lessKittens
 }
